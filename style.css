@@ -53,6 +53,7 @@ nav a {
 main p{
   text-align: left;
   margin-top: 10px;
+  float: right;
 }
 
 blockquote{
