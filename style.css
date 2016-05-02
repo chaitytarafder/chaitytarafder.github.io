@@ -75,7 +75,7 @@ footer {
   padding: 1px;
 }
 .home {
-  background-image: url(background-2.jpg);
+  background-image: url(..background-2.jpg);
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: cover;
