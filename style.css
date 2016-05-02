@@ -49,6 +49,10 @@ nav a {
   margin-right: 20px;
   max-width: 100%;
 }
+main, p{
+  text-align: left;
+}
+
 blockquote{
   clear: both;
   padding: 5px 150px;
