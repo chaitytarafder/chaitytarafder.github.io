@@ -12,9 +12,8 @@ body {
 h1, h2{
   font-family: "Nixie One", serif;
   font-weight: 300;
-  text-align: left;
   text-transform: uppercase;
-  margin: 10px;
+  margin: 0;
 }
 a {
   color: #bf6d50;
@@ -36,6 +35,7 @@ header h2{
 }
 header{
   float: left;
+  float: top;
 }
 nav{
   float: right;
