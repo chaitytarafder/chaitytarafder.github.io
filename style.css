@@ -1,0 +1,108 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans|Nixie+One|Pacifico);
+html, body{
+  height: 100%;
+}
+body {
+  background: lightblue;
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  color: #333333;
+}
+h1, h2{
+  font-family: "Nixie One", serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin: 0;
+}
+a {
+  color: #bf6d50;
+  text-decoration: none;
+}
+header, nav, main {
+  padding: 20px 30px;
+}
+main{
+  clear: both;
+}
+
+
+header h1{
+  font-size: 48px;
+}
+header h2{
+  font-size: 24px;
+}
+header{
+  float: left;
+}
+nav{
+  float: right;
+}
+nav a {
+  color: papayawhip;
+  font-size: 25px;
+  padding: 20px;
+}
+.profile-picture {
+  float: left;
+  margin-right: 20px;
+}
+blockquote{
+  clear: both;
+  padding: 5px 150px;
+  text-align:center;
+}
+
+blockquote p{
+  font-family: "Pacifico",cursive;
+  font-size: 30px;
+}
+.page-wrap {
+  min-height: 100%;
+  margin-bottom: -55px;
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+footer, .page-wrap:after{
+  height: 55px;
+}
+footer {
+  text-align: center;
+  font-size: 18px;
+  padding: 1px;
+}
+.home {
+  background-image: url(../images/background-2.jpg);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+}
+#home-footer{
+  color: white;
+}
+/* CONTACT STYLES
+-----------------------------------------*/
+form {
+  width: 400px;
+}
+input,
+textarea {
+  border: 1px solid #BF6D50;
+  width: 400px;
+  margin-bottom: 10px;
+}
+input {
+  height: 20px;
+}
+textarea {
+  height: 100px;
+}
+button {
+  background: #BF6D50;
+  border: none;
+  padding: 10px 40px;
+  font-size: 16px;
+}
