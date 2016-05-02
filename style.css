@@ -12,8 +12,9 @@ body {
 h1, h2{
   font-family: "Nixie One", serif;
   font-weight: 300;
+  text-align: left;
   text-transform: uppercase;
-  margin: 0;
+  margin: 10px;
 }
 a {
   color: #bf6d50;
